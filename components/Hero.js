@@ -7,7 +7,7 @@ export default function Hero() {
   const [closeReg, setCloseReg] = useState(true);
 
   return (
-    <div className="bg-[#11001E] relative my-0 z-20 w-screen h-fit">
+    <div className="bg-[#11001E] relative my-0 z-20 w-[100%] sm:overflow-x-hidden h-fit">
       <div className="sm:text-5xl text-3xl text-center block mx-auto text-white">
         <h1 className="relative mt-20" style={{ opacity: 0, animation: 'fadeIn 1s forwards' }}>
           Learn, Create and Experiment
@@ -16,7 +16,7 @@ export default function Hero() {
           Everything <span className="text-[#A965FF]">Design</span>
         </h1>
       </div>
-      <div className="h-96"></div>
+      <img className='block mx-auto  my-4  ' src='/images/gif1.gif'/>
       <img
         src="/images/triangle.png"
         className="z-20 text-white block mx-auto"

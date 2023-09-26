@@ -23,7 +23,7 @@ export default function NavBar({navbar }) {
   }
   return (
     <div
-      className={` w-full z-30 font-medium bg-[#11001E] text-white sm:py-3 
+      className={` w-screen z-30 font-medium bg-[#11001E] text-white sm:py-3 
          shadow-lg border-b border-[#8049C3]  `
        
         }
@@ -44,22 +44,22 @@ export default function NavBar({navbar }) {
             </button>
           </Link>
           <Link href="/committees">
-            <button className="2xl:text-xl text-lg hover:text-[#189BA5] duration-100">
+            <button className="2xl:text-xl text-lg hover:text-[purple] duration-100">
               Prodes
             </button>
           </Link>
           <Link href="/secretariat">
-            <button className="2xl:text-xl  text-lg hover:text-[#189BA5] duration-100">
+            <button className="2xl:text-xl  text-lg hover:text-[purple] duration-100">
               Enter Bazaar
             </button>
           </Link>
           <Link href="/">
-            <button className="2xl:text-xl  text-lg hover:text-[#189BA5] duration-100">
+            <button className="2xl:text-xl  text-lg hover:text-[purple] duration-100">
              The Squad
             </button>
           </Link>
           <Link href="/">
-            <button className="2xl:text-xl  text-lg hover:text-[#189BA5] duration-100">
+            <button className="2xl:text-xl  text-lg hover:text-[purple] duration-100">
               Contact
             </button>
           </Link>

@@ -4,7 +4,7 @@ import Main from '../components/Main';
 import Hero from '../components/Hero';
 import Footer from '../components/Footer';
 import { getAuth ,onAuthStateChanged} from 'firebase/auth';
-import NavBar2 from '../components/navbarforlogin';
+
 
 export default function Home() {
 

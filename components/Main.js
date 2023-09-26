@@ -6,6 +6,8 @@ import Link from 'next/link';
 import ProdesCard from './prodescard';
 import Slider from './ImageSlider';
 import ImageTextCarousel from './ImageSlider';
+import Whytrustus from './letsdesign';
+import Letsdesign from './letsdesign';
 
 
 
@@ -49,26 +51,30 @@ export default function Main() {
       </div>
       
 
-      <div className='block justify-center mt-28 mx-auto'>
-  <img className='inline w-full sm:w-auto md:w-auto lg:w-auto' src='/images/Vector 20.png'/>
-  <img className='sm:inline block mx-auto w-16 sm:w-44 md:w-32 lg:w-24' src='/images/Group 50.png'/>
-  <img className='inline w-full sm:w-auto md:w-auto lg:w-auto' src='/images/Vector 20.png'/>
-</div>
-
-<div className='flex  justify-center gap-[10%]   w-[90%]'>
-  <div></div>
-<div className='sm:inline block'>
-<img className='block mx-auto w-4 h-24 sm:w-auto md:w-auto lg:w-auto' src='/images/Vector 22.png'/>
+      <div className='flex justify-center w-[90%]  mt-28 mx-auto'>
+        <div className='block w-64 mx-auto '>
+        <img className='inline mx-auto md:w-auto lg:w-auto' src='/images/gif3.gif'/><h1 className='text-[#F5F5F5] text-xl sm:w-48 w-[95%] font-semibold block mx-auto'>Anyone motivated to dive into the world of learning and exploring design</h1></div>
+  <img className='block mx-auto my-auto sm:w-32 h-2 ' src='/images/Vector 20.png'/>
+ <div className='block mx-auto'>
+  <img className=' mx-auto block  w-28 h-28' src='/images/Group 50.png'/><div className='sm:inline block'>
+<img className='block mx-auto w-4 h-24 sm:w-auto my-8 md:w-auto lg:w-auto' src='/images/Vector 22.png'/>
 <img className='block mx-auto mt-12 mb-8 w-full sm:w-auto md:w-auto lg:w-auto' src='/images/Frame 33605.png'/>
-<h1 className='text-[#F5F5F5] text-md sm:w-48 w-[95%] font-semibold block mx-auto'>Product & UI/UX Design learning and competing community space </h1>
+<h1 className='text-[#F5F5F5] text-xl sm:w-48 w-[95%] font-semibold block mx-auto'>Product & UI/UX Design learning and competing community space </h1>
 
-</div>
-<div className='sm:inline block '>
+</div></div>
+  <img className='block my-auto  sm:w-32 h-2 mx-auto' src='/images/Vector 20.png'/>
+  <div className='block mx-auto'><img className='block w-48 h-48 my-auto mx-auto ' src='/images/gif2.gif'/><div className='sm:inline block mx-auto '>
 <img className='block mx-auto w-4 h-24 sm:w-auto md:w-auto lg:w-auto' src='/images/Vector 22.png'/>
 <img className='block mx-auto mt-12 mb-8 w-full sm:w-auto md:w-auto lg:w-auto' src='/images/Frame 33606.png'/>
-<h1 className='text-[#F5F5F5] text-md w-48 font-semibold block mx-auto'>Enter into a world of immense industry-level Job & Internship Opportunities </h1>
-</div>
-</div>
+<h1 className='text-[#F5F5F5] text-xl w-48 font-semibold block mx-auto'>Enter into a world of immense industry-level Job & Internship Opportunities </h1>
+</div></div></div>
+
+
+{/* <div className='flex  justify-center gap-[10%]   w-[90%]'>
+  <div></div>
+
+
+</div> */}
 <img  src='/images/triangle.png'className= 'mt-28   text-white block mx-auto' ></img>
 
 <div className='flex justify-center'><div className='bg-gradient-to-l from-[#A965FF] to-[#F5F5F5] sm:w-80 md:w-52 w-24 mr-1 md:mr-6 sm:mr-16 h-1 sm:mt-1 mt-3'></div>   <h1 className="font-bold font-heading  text-center text-[#F5F5F5] text-lg sm:text-[2.5rem] ">
@@ -96,10 +102,12 @@ to national level" />
 <h1 className='text-[#DFC5FF] text-center text-xl'>and much more </h1>
 </div>
 <div className="mt-12 sm:mt-[8.75rem]">
-      <div className='flex justify-center'><div className='bg-gradient-to-l from-[#A965FF] to-[#F5F5F5] sm:w-80 md:w-52 w-28 mr-1 md:mr-6 sm:mr-16 h-1 sm:mt-1 mt-3'></div>   <h1 className="font-bold font-heading  text-center text-[#F5F5F5] text-lg sm:text-[2.5rem] ">
+        <div className='flex justify-center'><div className='bg-gradient-to-l from-[#A965FF] to-[#F5F5F5] sm:w-80 md:w-52 w-28 mr-1 md:mr-6 sm:mr-16 h-1 sm:mt-1 mt-3'></div>   <h1 className="font-bold font-heading  text-center text-[#F5F5F5] text-lg sm:text-[2.5rem] ">
           W H Y <span className='sm:mx-4 mx-2'>T R U S T</span> <span className='sm:mx-4 mx-2'>U S ?</span>
         </h1><div className=' bg-gradient-to-r from-[#A965FF] to-[#F5F5F5] sm:w-80 w-28 sm:ml-16 ml-1 h-1 md:w-52 md:ml-6 sm:mt-1 mt-3'></div></div>
       </div>
+<Letsdesign/>
+
 
 
 
