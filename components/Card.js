@@ -18,7 +18,7 @@ export default function Card() {
 <p className="mt-8  text-xl text-[#DFC5FF]">An empathy-driven community of design enthusiasts to learn design from scratch</p>
 
          <button 
-            className={`px-12  2xl:px-12  mt-8 block sm:inline mx-auto rounded-md text-[2.125rem] text-[#F5F5F5]  font-semibold  sm:py-1  bg-[#8049C3] hover:text-[black]  `}
+            className={`px-12  2xl:px-12  mt-8 block sm:inline mx-auto rounded-md text-[2.125rem] text-[#F5F5F5]  font-semibold  sm:py-1  bg-[#8049C3] hover:rounded-2xl hover:scale-110 hover:duration-200  `}
           >
             Explore
           </button>

@@ -39,27 +39,27 @@ export default function NavBar({navbar }) {
         </div>
         <div className="justify-end hidden items-center sm:flex space-x-11 2xl:space-x-18 font-medium">
           <Link href="home">
-            <button className=" 2xl:text-xl text-[#A965FF] hover:text-[#F5F5F5] duration-100">
+            <button className=" 2xl:text-xl hover-underline text-[#A965FF] duration-100">
               Home
             </button>
           </Link>
           <Link href="/committees">
-            <button className="2xl:text-xl text-lg hover:text-[purple] duration-100">
+            <button className="2xl:text-xl hover-underline text-lg hduration-100">
               Prodes
             </button>
           </Link>
           <Link href="/secretariat">
-            <button className="2xl:text-xl  text-lg hover:text-[purple] duration-100">
+            <button className="2xl:text-xl hover-underline  text-lg  duration-100">
               Enter Bazaar
             </button>
           </Link>
           <Link href="/">
-            <button className="2xl:text-xl  text-lg hover:text-[purple] duration-100">
+            <button className="2xl:text-xl hover-underline  text-lg  duration-100">
              The Squad
             </button>
           </Link>
           <Link href="/">
-            <button className="2xl:text-xl  text-lg hover:text-[purple] duration-100">
+            <button className="2xl:text-xl hover-underline  text-lg  duration-100">
               Contact
             </button>
           </Link>
@@ -67,7 +67,7 @@ export default function NavBar({navbar }) {
 
           <Link href="/loginpage">
          <button onClick={handleChange}
-            className={`px-12 2xl:px-12 h-10 rounded-md text-[1.125rem] text-[#F5F5F5] font-semibold mx-4   bg-[#8049C3] hover:text-[black]  `}
+            className={`px-12 2xl:px-12 h-10 rounded-md text-[1.125rem] text-[#F5F5F5] font-semibold mx-4   bg-[#8049C3] hover:rounded-3xl hover:scale-105 hover:duration-300   `}
           >
             Login
           </button></Link>

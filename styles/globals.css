@@ -7,11 +7,13 @@
 
 html,
 body {
+  scroll-behavior: smooth;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-size: 14px;
+  overflow-x: hidden;
 }
 .animated-element {
   transform: translateX(-100%); /* Initially off-screen to the left */
@@ -190,3 +192,103 @@ padding: 4px 6px;
 html {
   scroll-behavior: smooth;
 }
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #11001E;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.track-wrapper {
+  width: 100%; /* Change width to 100% to center-align the carousel */
+  display: flex;
+  
+  justify-content: center; /* Center-align the content horizontally */
+ 
+  max-inline-size: var(--size-content-3);
+}
+
+.track {
+  --size: clamp(200px, 40vmin, 50rem);
+  width: 100%; /* the width to 100% to make all cards visible while sliding */
+  /* Set the width of the track to the desired card width */
+  display: flex;
+  overflow: scroll; 
+  gap: var(--size-4);
+  list-style-type: none;
+  margin: 0;
+  padding: 0; /* Remove padding from the track */
+  scroll-snap-type: x mandatory;
+  justify-content: center; /* Center-align the cards horizontally */
+}
+
+.track__item {
+  height: 100%;
+  width: 85%;
+  background-color: #11001E;
+
+ 
+}
+@media (max-width: 768px) {
+  .track__item {
+    width: fit-content; /* Full width on smaller screens */
+    height: fit-content; /* Allow the card to grow in height as needed */
+    flex-direction: column;
+    justify-content: space-between; /* Adjust card content alignment */
+    transition: transform 0.3s ease; /* Add a smooth transition effect for scaling */
+ 
+ 
+  }
+}
+
+
+/* Scale the left and right slides to a smaller size */
+.swiper-slide-prev .track__item,
+.swiper-slide-next .track__item {
+  transform: scale(0.7); /* Adjust the scale factor as needed */
+}
+
+  /* Custom style for Swiper navigation buttons */
+ 
+  :root {
+    --swiper-navigation-color: #A965FF;
+    --swiper-pagination-color: #A965FF;
+
+    
+}
+.hover-underline {
+  position: relative;
+  text-decoration: none;
+  
+}
+
+.hover-underline::before {
+  content: "";
+  position: absolute;
+  bottom:0;
+ 
+  left: 0;
+  width: 100%;
+  margin-top: 5px;
+  
+  height: 2px; /* Adjust the height of the underline as needed */
+  background-color: white; /* Set the underline color to white */
+  transform: scaleX(0); /* Initially, the underline has zero width */
+  transform-origin: center;
+  transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+}
+
+.hover-underline:hover::before {
+  transform: scaleX(1); /* On hover, expand the underline to full width */
+}
+
