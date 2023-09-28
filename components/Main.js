@@ -18,9 +18,9 @@ export default function Main() {
     <div className="w-screen z-20 relative  mx-auto  bg-[#11001E]  flex flex-col space-y-24">
     
       <div className="mt-12 sm:mt-[8.75rem]">
-     <div className='flex justify-center '><div className='bg-gradient-to-l from-[#A965FF] to-[#F5F5F5] sm:w-80 md:w-52 w-28 mr-1 md:mr-6 sm:mr-16 h-1 sm:mt-1 mt-3'></div>   <h1 className="font-bold font-heading  text-center text-[#F5F5F5] text-lg sm:text-[2.5rem] ">
+     <div className='flex justify-center '><div className='bg-gradient-to-l from-[#A965FF] to-[#F5F5F5] sm:w-80 md:w-52 w-24 mr-1 md:mr-6 sm:mr-16 h-0.5 sm:mt-1 mt-3'></div>   <h1 className="font-bold font-heading  text-center text-[#F5F5F5] text-lg sm:text-[2.5rem] ">
           O U R <span className='sm:mx-4 mx-2'> M I S S I O N</span>
-        </h1><div className=' bg-gradient-to-r from-[#A965FF] to-[#F5F5F5] sm:w-80 w-28 sm:ml-16 ml-1 h-1 md:w-52 md:ml-6 sm:mt-1 mt-3'></div></div>
+        </h1><div className=' bg-gradient-to-r from-[#A965FF] to-[#F5F5F5] sm:w-80 w-24 sm:ml-16 ml-1 h-0.5 md:w-52 md:ml-6 sm:mt-1 mt-3'></div></div>
        
 
 <h1 className=' mt-24 mb-36 text-[#F5F5F5] text-center  sm:font-semibold sm:text-5xl md:3xl text-4xl'>Building an Interactive<span className='text-[#A965FF]'> Design</span> Ecosystem</h1>
@@ -50,9 +50,9 @@ export default function Main() {
 <Basicidea/>
 <img  src='/images/triangle.png'className= 'mt-28   text-white block mx-auto' ></img>
 
-<div className='flex justify-center'><div className='bg-gradient-to-l from-[#A965FF] to-[#F5F5F5] sm:w-80 md:w-52 w-24 mr-1 md:mr-6 sm:mr-16 h-1 sm:mt-1 mt-3'></div>   <h1 className="font-bold font-heading  text-center text-[#F5F5F5] text-lg sm:text-[2.5rem] ">
+<div className='flex justify-center'><div className='bg-gradient-to-l from-[#A965FF] to-[#F5F5F5] sm:w-80 md:w-52 w-24 mr-1 md:mr-6 sm:mr-16 h-0.5 sm:mt-1 mt-3'></div>   <h1 className="font-bold font-heading  text-center text-[#F5F5F5] text-lg sm:text-[2.5rem] ">
           W H Y<span className='sm:mx-4 mx-2'>B R A N D E S</span>
-        </h1><div className=' bg-gradient-to-r from-[#A965FF] to-[#F5F5F5] sm:w-80 w-24 sm:ml-16 ml-1 h-1 md:w-52 md:ml-6 sm:mt-1 mt-3'></div></div>
+        </h1><div className=' bg-gradient-to-r from-[#A965FF] to-[#F5F5F5] sm:w-80 w-24 sm:ml-16 ml-1 h-0.5 md:w-52 md:ml-6 sm:mt-1 mt-3'></div></div>
 <div className='sm:flex w-[90%] block mx-auto justify-center sm:gap-[10%]'>
 <div className='mt-16'>
 <ProdesCard image="/images/Saly-41.png" data="Brandes empowers you to 

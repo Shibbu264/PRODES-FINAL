@@ -15,9 +15,9 @@ export default function Sweeper() {
   return (
     <div className="mt-12 bg-[#11001E] sm:mt-[8.75rem]">
        <div className="mt-12 mb-20 sm:mt-[8.75rem]">
-       <div className='flex justify-center'><div className='bg-gradient-to-l from-[#A965FF] to-[#F5F5F5] sm:w-80 md:w-52 w-28 mr-1 md:mr-6 sm:mr-16 h-1 sm:mt-1 mt-3'></div>   <h1 className="font-bold font-heading  text-center text-[#F5F5F5] text-lg sm:text-[2.5rem] ">
+       <div className='flex justify-center'><div className='bg-gradient-to-l from-[#A965FF] to-[#F5F5F5] sm:w-80 md:w-52 w-20  mr-1 md:mr-6 sm:mr-16 h-0.5 sm:mt-1 mt-3'></div>   <h1 className="font-bold font-heading  text-center text-[#F5F5F5] text-lg sm:text-[2.5rem] ">
            W H Y <span className='sm:mx-4 mx-2'>T R U S T</span> <span className='sm:mx-4 mx-2'>U S</span>
-         </h1><div className=' bg-gradient-to-r from-[#A965FF] to-[#F5F5F5] sm:w-80 w-28 sm:ml-16 ml-1 h-1 md:w-52 md:ml-6 sm:mt-1 mt-3'></div></div>
+         </h1><div className=' bg-gradient-to-r from-[#A965FF] to-[#F5F5F5] sm:w-80 w-20  sm:ml-16 ml-1 h-0.5 md:w-52 md:ml-6 sm:mt-1 mt-3'></div></div>
        </div>
 
       <div className="track-wrapper block mx-auto bg-[#11001E]">
