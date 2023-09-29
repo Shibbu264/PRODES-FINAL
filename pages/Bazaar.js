@@ -41,7 +41,7 @@ const[value,setvalue]=useState(true)
  
   <input type="checkbox" onClick={()=>{setvalue(!value)}} value="" class="sr-only peer" />
   
-  <div class="w-11 h-6 bg-[#11001E] rounded-full peer dark:bg-gray-700 peer-focus:ring-4 peer-focus:ring-purple-300 dark:peer-focus:ring-purple-800 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-purple-600"></div>
+  <div class="w-11 h-6 bg-[#11001E] rounded-full border-[#A965FF] border-2 peer dark:bg-gray-700 peer-focus:ring-4 peer-focus:ring-purple-300 dark:peer-focus:ring-purple-800 peer-checked:after:translate-x-full peer-checked:after:border-[#A965FF] after:content-[''] after:absolute after:top-0.5 after:left-[2px] after:bg-white after:border-[#A965FF] after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-purple-600"></div>
   <span class={value?'ml-3 text-xl text-[#F5F5F5] font-medium  dark:text-gray-300':' ml-3 text-xl  text-[#A965FF] font-medium  dark:text-gray-300'}>Company</span>
 </label>
 </div>
@@ -57,9 +57,9 @@ const[value,setvalue]=useState(true)
     
     </div>
     <div className="mt-12 sm:mt-[8.75rem]">
-     <div className='flex justify-center '><div className='bg-gradient-to-l from-[#A965FF] to-[#F5F5F5] sm:w-80 md:w-52 w-24 mr-1 md:mr-6 sm:mr-16 h-0.5 sm:mt-1 mt-3'></div>   <h1 className="font-bold font-heading  text-center text-[#F5F5F5] text-lg sm:text-[2.5rem] ">
+     <div className='flex justify-center '><div className='bg-gradient-to-l from-[#A965FF] to-[#F5F5F5] sm:w-80 md:w-52 w-20 mr-1 md:mr-6 sm:mr-16 h-0.5 sm:mt-1 mt-3'></div>   <h1 className="font-bold font-heading  text-center text-[#F5F5F5] text-lg sm:text-[2.5rem] ">
      W H A T <span className='mx-1'></span> I S <span className='mx-1'></span> B A Z A A R
-        </h1><div className=' bg-gradient-to-r from-[#A965FF] to-[#F5F5F5] sm:w-80 w-24 sm:ml-16 ml-1 h-0.5 md:w-52 md:ml-6 sm:mt-1 mt-3'></div></div></div>
+        </h1><div className=' bg-gradient-to-r from-[#A965FF] to-[#F5F5F5] sm:w-80 w-20 sm:ml-16 ml-1 h-0.5 md:w-52 md:ml-6 sm:mt-1 mt-3'></div></div></div>
         <img src="/images/Union.png" alt="Image 2" class="w-6 h-6 my-2 ml-auto mr-48"/>
         <div class="flex flex-col items-center mb-24 sm:mt-24 mt-12">
     <div class="sm:flex  sm:flex-row flex-col sm:gap-0 gap-10 justify-center">

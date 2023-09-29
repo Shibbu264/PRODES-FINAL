@@ -37,7 +37,7 @@ export default function Letsdesign() {
           <div className='mt-24 text-[#A965FF] block mx-auto text-2xl lg sm:w-[40%] w-[80%]  '>
         <p1 className="py-12">A new way of exploring design - one that is focused upon helping you build a network and build a creative foundation to boost your career
           Design Network!</p1>
-          <h1 className=' my-20 text-xl text-center  text-[#F5F5F5] border-[#F5F5F5] sm:block mx-auto py-4 sm:px-5 rounded-3xl border-x-2 border-y-2'> R E D E S I G N<span className='mx-6'> Y O U R S E L F </span></h1>
+          <h1 className=' my-20 sm:text-xl text-center  text-[#F5F5F5] border-[#F5F5F5] sm:block mx-auto py-4 sm:px-5 text-lg rounded-3xl border-x-2 border-y-2'> R E D E S I G N<span className='mx-6'> Y O U R S E L F </span></h1>
           </div>
           </div>
 

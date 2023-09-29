@@ -38,7 +38,7 @@ export default function NavBar({navbar }) {
         />
         </div>
         <div className="justify-end hidden items-center sm:flex space-x-11 2xl:space-x-18 font-medium">
-          <Link href="home">
+          <Link href="/home">
             <button className=" 2xl:text-xl hover-underline text-[#A965FF] duration-100">
               Home
             </button>
