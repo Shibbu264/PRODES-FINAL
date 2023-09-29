@@ -43,7 +43,7 @@ export default function NavBar({navbar }) {
               Home
             </button>
           </Link>
-          <Link href="/committees">
+          <Link href="/Prodes">
             <button className="2xl:text-xl hover-underline text-lg hduration-100">
               Prodes
             </button>
