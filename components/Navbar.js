@@ -48,7 +48,7 @@ export default function NavBar({navbar }) {
               Prodes
             </button>
           </Link>
-          <Link href="/secretariat">
+          <Link href="/Bazaar">
             <button className="2xl:text-xl hover-underline  text-lg  duration-100">
               Enter Bazaar
             </button>
@@ -94,8 +94,8 @@ export default function NavBar({navbar }) {
             </MenuHandler>
             <MenuList className="sm:hidden absolute z-30 top-0 h-full w-[100vw] rounded-none flex flex-col items-center justify-center bg-[#11001E] bg-opacity-80 text-white text-3xl font-heading font-bold text-center backdrop-blur-lg">
               <MenuItem className='text-center hover:text-yellow-400'><Link href="/">Home</Link></MenuItem>
-              <MenuItem className='text-center hover:text-yellow-400'><Link href="/">Prodes</Link></MenuItem>
-              <MenuItem className='text-center hover:text-yellow-400'><Link href="/">Enter Bazaar</Link></MenuItem>
+              <MenuItem className='text-center hover:text-yellow-400'><Link href="/Prodes">Prodes</Link></MenuItem>
+              <MenuItem className='text-center hover:text-yellow-400'><Link href="/Bazaar">Enter Bazaar</Link></MenuItem>
               <MenuItem className='text-center hover:text-yellow-400'><Link href="/">The Squad</Link></MenuItem>
               <MenuItem className='text-center hover:text-yellow-400'><Link href="/">Contact</Link></MenuItem>
               <MenuItem className='text-center hover:text-yellow-400'><Link href="/">FAQs</Link></MenuItem>

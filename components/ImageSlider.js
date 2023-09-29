@@ -46,7 +46,7 @@ export default function Sweeper() {
             <div className="border-[#A965FF] mx-6 border-x-2 border-y-2 border-solid px-8 py-16 track__item">
               
   
-      <p className='text-sm text-center text-[#F5F5F5]'>“Prodes made me understand how I can think from the design perspective into my daily tasks Prodes made me understand how I can think from the design perspective into my daily tasks “</p>
+      <p className='text-md text-center text-[#F5F5F5]'>“Prodes made me understand how I can think from the design perspective into my daily tasks Prodes made me understand how I can think from the design perspective into my daily tasks “</p>
       <img src='/images/brand.png' className='block mx-auto w-24 my-6 h-24 rounded-full' alt='Brand Logo'/>
 
       <h1 className='font-semibold my-4 text-[#DFC5FF] text-center'>K Abhishek kumar</h1>
