@@ -44,7 +44,7 @@ export default function Prodes() {
 
 --for Phone
   <div class="bg-[#D2AFFF] p-2 mx-3 sm:hidden my-16  rounded-lg text-[#11001E] z-10  text-xl font-semibold text-center ">
-      PRODES 2.0 * OCTOBER 2023 * FREE COHO<span className='mr-8'></span>COHORT-BASED COMMUNITY FREE COHORT-BASED COMMUNITY * PRODES 2.0
+      PRODES 2.0 * OCTOBER 2023 * FREE COHORT-BASED COMMUNITY  * PRODES 2.0
     </div>
    <img src='/images/Group 33592.png' className='z-30 block sm:hidden absolute mt-12 left-0 right-0 mx-auto'/>
  
