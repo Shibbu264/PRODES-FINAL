@@ -34,11 +34,11 @@ export default function Main() {
 <h1 className='text-3xl mt-14 font-bold text-[#F5F5F5]'>The exclusive marketplace</h1>
 <h1 className='text-3xl font-bold text-[#F5F5F5]'>for everything Design</h1>
 <p className='text-xl text-[#DFC5FF] mt-6'>A common platform connecting amazing brands with the best & most trusted designers</p>
-<button 
+<Link href='/Bazaar'><button 
             className={`px-12  2xl:px-12  mt-8 sm:inline block sm:mr-auto mx-auto rounded-md text-[2.125rem] text-[#F5F5F5]  font-semibold  sm:py-1  bg-[#8049C3] hover:rounded-2xl hover:scale-110 hover:duration-200  `}
           >
             Explore
-          </button>
+          </button></Link>
 </div>
 
 </div>
