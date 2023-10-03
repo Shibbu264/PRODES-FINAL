@@ -67,7 +67,7 @@ export default function NavBar({navbar }) {
 
           <Link href="/loginpage">
          <button onClick={handleChange}
-            className={`px-12 2xl:px-12 h-10 rounded-md text-[1.125rem] text-[#F5F5F5] font-semibold mx-4   bg-[#8049C3] hover:rounded-3xl hover:scale-105 hover:duration-300   `}
+            className={`px-12 2xl:px-12 h-10 rounded-md text-[1.125rem] text-[#F5F5F5] font-semibold mx-4   border-[#8049C3] border-x border-y   hover:bg-[#8049C3] hover:duration-200    `}
           >
             Login
           </button></Link>

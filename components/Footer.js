@@ -3,15 +3,15 @@ import Link from 'next/link';
 
 export default function Footer() {
   return (
-    <div className=" footerbg1 w-[100%] h-fit m-0   py-24  bg-cover bg-center bg-no-repeat text-white ">
+    <div className=" footerbg1 w-[100%] h-fit m-0   pb-24  bg-cover bg-center bg-no-repeat text-white ">
     
-        <div className="mt-12 sm:mt-[4.75rem]">
-          <div className='flex justify-center'>
-            <div className='bg-gradient-to-l from-[#A965FF] to-[#F5F5F5] sm:w-80 md:w-52 w-16 mr-1 md:mr-6 sm:mr-16 h-0.5 sm:mt-1 mt-3'></div>
-            <h1 className="font-bold font-heading text-center text-[#F5F5F5] text-lg sm:text-[2.5rem] ">
-              C O N N E C T<span className='sm:mx-4 mx-2'>W I T H</span> <span className='sm:mx-4 mx-2'>U S</span>
+        <div className="mt-12 sm:mt-[4.75rem] mb-32">
+        <div className='flex justify-center items-center '>
+            <div className='bg-gradient-to-r from-[#A965FF] via-transparent to-rgba(17, 0, 30, 0.00) w-full rotate-180  mr-1 h-[2.277px]  '></div>
+            <h1 className="text-gray-200 w-[486.267px] flex-shrink-0 text-center font-montserrat  text-[28px] font-semibold tracking-wider leading-[127.5%]  ">
+              C O N N E C T<span className='mx-2'>  W I T H</span> <span className='mx-2'>U S</span>
             </h1>
-            <div className='bg-gradient-to-r from-[#A965FF] to-[#F5F5F5]  sm:w-80 w-16 sm:ml-16 ml-1 h-0.5 md:w-52 md:ml-6 sm:mt-1 mt-3'></div>
+            <div className='bg-gradient-to-r from-[#A965FF] via-transparent to-rgba(17, 0, 30, 0.00) w-full h-[2.277px] ml-1  '></div>
           </div>
         </div>
        

@@ -1,3 +1,5 @@
+import Leftline from "./leftline1";
+import Rightline from "./rightline";
 
 
 
@@ -5,28 +7,32 @@ export default function Basicidea () {
 return (
     <>
 <div className="mt-12 sm:mt-[8.75rem]">
-<div className='flex justify-center'><div className='bg-gradient-to-l from-[#A965FF] to-[#F5F5F5] sm:w-80 md:w-52 w-24 mr-1 md:mr-6 sm:mr-16 h-0.5 sm:mt-1 mt-3'></div>   <h1 className="font-bold font-heading  text-center text-[#F5F5F5] text-lg sm:text-[2.5rem] ">
+<div className='flex justify-center items-center'><Leftline/>   <h1 className="w-[375.006px] flex-shrink-0 text-gray-200 text-center font-montserrat text-[28px] font-semibold leading-[35.7px] tracking-wider ">
     A <span className='sm:mx-4 mx-2'>B A S I C</span> <span className='sm:mx-4 mx-2'>I D E A</span>
-  </h1><div className=' bg-gradient-to-r from-[#A965FF] to-[#F5F5F5] sm:w-80 w-24 sm:ml-16 ml-1 h-0.5 md:w-52 md:ml-6 sm:mt-1 mt-3'></div></div>
+  </h1><Rightline/></div>
 </div>
 
 
-<div className='sm:flex hidden justify-center w-[90%]  mt-28 mx-auto'>
-  <div className='block w-64 mx-auto '>
-  <img className='inline mx-auto md:w-auto lg:w-auto' src='/images/gif3.gif'/><h1 className='text-[#F5F5F5] text-xl sm:w-48 w-[95%] font-semibold block mx-auto'>Anyone motivated to dive into the world of learning and exploring design</h1></div>
-<img className='block mx-auto my-auto sm:w-32 h-2 ' src='/images/Vector 20.png'/>
+<div className='sm:flex hidden justify-center  w-[85%]  mt-28 mx-auto'>
+  <div className='block w-64 mb-20 mt-0 mx-auto '>
+  <img className='inline mx-auto w-[267px] h-[267px]  md:w-auto lg:w-auto' src='/images/gif3.gif'/><h1 className='text-gray-200 text-center font-montserrat text-[18px] font-medium leading-[28px] tracking-[0.548px] w-[294px] '>Anyone motivated to dive into the world of learning and exploring design</h1></div>
+<img className='block mx-auto  mt-36 sm:w-32 h-2 ' src='/images/Vector 20.png'/>
 <div className='block mx-auto'>
-<img className=' mx-auto block  w-28 h-28' src='/images/Group 50.png'/><div className='sm:inline block'>
-<img className='block mx-auto w-4 h-24 sm:w-auto my-8 md:w-auto lg:w-auto' src='/images/Vector 22.png'/>
+  <div className="flex-row justify-center mb-6 mt-12  items-center mx-auto">
+<img className=' mx-auto block  w-[70px] h-[93px] mb-6' src='/images/Group 50.png'/>
+<h1 className="text-white text-center  text-[33.472px] font-extrabold  custom-text leading-[33.472px] tracking-[4.017px]"> BRANDES</h1>
+</div>
+<div className='sm:inline block'>
+<img className='block mx-auto w-4 h-24  sm:w-auto my-8 md:w-auto lg:w-auto' src='/images/Vector 22.png'/>
 <img className='block mx-auto mt-12 mb-8 w-full sm:w-auto md:w-auto lg:w-auto' src='/images/Frame 33605.png'/>
-<h1 className='text-[#F5F5F5] text-xl sm:w-48 w-[95%] font-semibold block mx-auto'>Product & UI/UX Design learning and competing community space </h1>
+<h1 className='text-gray-200 text-center font-montserrat text-[18px] font-medium leading-[28px] tracking-[0.548px] w-[284px]'>Product & UI/UX Design learning and competing community space </h1>
 
 </div></div>
-<img className='block my-auto  sm:w-32 h-2 mx-auto' src='/images/Vector 20.png'/>
-<div className='block mx-auto'><img className='block w-48 h-48 my-auto mx-auto ' src='/images/gif2.gif'/><div className='sm:inline block mx-auto '>
+<img className='block  mt-36 sm:w-32 h-2 mx-auto' src='/images/Vector 20.png'/>
+<div className='block mb-20 mt-7 mx-auto'><img className='block w-[197px] h-[193px] o mx-auto ' src='/images/gif2.gif'/><div className='sm:inline block mx-auto '>
 <img className='block mx-auto w-4 h-24 sm:w-auto md:w-auto lg:w-auto' src='/images/Vector 22.png'/>
 <img className='block mx-auto mt-12 mb-8 w-full sm:w-auto md:w-auto lg:w-auto' src='/images/Frame 33606.png'/>
-<h1 className='text-[#F5F5F5] text-xl w-48 font-semibold block mx-auto'>Enter into a world of immense industry-level Job & Internship Opportunities </h1>
+<h1 className='text-gray-200 text-center font-montserrat text-[18px] font-medium leading-[28px] tracking-[0.548px] w-[282px]'>Enter into a world of immense industry-level Job & Internship Opportunities </h1>
 </div></div></div>
 
 

@@ -11,6 +11,7 @@ module.exports = withMT({
         image: "url('/assets/bg-image-delegates.jpg')",
       },
       fontFamily: {
+        'lemon-days': ['LemonDays-Regular', 'sans-serif'],
         custom: ['Inter'],
         heading: ['Montserrat'],
       }
