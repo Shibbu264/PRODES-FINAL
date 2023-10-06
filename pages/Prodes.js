@@ -6,6 +6,8 @@ import Footer from '../components/Footer';
 import { getAuth ,onAuthStateChanged} from 'firebase/auth';
 import Letsdesign from '../components/letsdesign';
 import ProdesCard from '../components/prodescard';
+import Leftline from '../components/leftline1';
+import Rightline from '../components/rightline';
 
 
 export default function Prodes() {
@@ -32,12 +34,12 @@ export default function Prodes() {
       <div class="flex sm:mt-28 mt-24 sm:mb-28 mb-16 h-64 flex-col justify-center  items-center">
   
    
-    <div class="bg-[#D2AFFF] p-4 sm:inline hidden  rounded-lg text-[#11001E] transform rotate-12 text-2xl font-extrabold text-center ">
-      PRODES 2.0 * OCTOBER 2023 * FREE COHO<span className='mr-8'></span>COHORT-BASED COMMUNITY FREE COHORT-BASED COMMUNITY * PRODES 2.0
+    <div class="bg-[#D2AFFF] absolute w-[1575px] h-[31px]   sm:inline hidden z-20  rounded-lg text-[#11001E] transform rotate-[5.173deg] flex-shrink-0 text-[25.841px] leading-[32.301px] tracking-[1.496px] custom-text font-bold text-center ">
+    PRODES 2.0 * OCTOBER 2023 * FREE COHORT-BASED COMMUNITY FREE COHORT-BASED COMMUNITY * PRODES 2.0 
     </div>
-   <img src='/images/Group 33592.png' className='z-30  sm:block hidden absolute left-0 right-0 mx-auto'/>
+   <img src='/images/Group 33592.png' className='z-30  sm:block hidden absolute w-[419.607px] h-[270.511px] left-0 right-0 mx-auto'/>
  
-  <div class="bg-[#5C2F93] p-4 sm:inline hidden rounded-lg sm:mt-0 mt-36 z-20 text-white transform -rotate-12 text-2xl font-bold text-center ">
+  <div class="bg-[#5C2F93]  w-[1575px] h-[31px]  sm:inline hidden rounded-lg sm:mt-0 mt-28  flex-shrink-0 text-[#FFFFFF] transform custom-text rotate-[-5.55deg] text-[24.93px] leading-[31.162px] tracking-[1.496px] font-semibold text-center ">
     LEARN  DESIGN  CONCEPTS  VIA  PRACTICAL  APPLICATIONS  -  LEARN  VIA  PRACTICAL  APPLICATIONS  -  LEARN  DESIGN CONCEPTS
   </div>
 
@@ -48,7 +50,7 @@ export default function Prodes() {
     </div>
    <img src='/images/Group 33592.png' className='z-30 block sm:hidden absolute mt-12 left-0 right-0 mx-auto'/>
  
-  <div class="bg-[#5C2F93] p-4 mx-3 sm:hidden rounded-lg sm:mt-0 mt-40 z-10 text-white  text-xl font-semibold text-center ">
+  <div class="bg-[#5C2F93] p-4 mx-3 sm:hidden rounded-lg sm:mt-0 mt-40 z-10 text-white  text-[24.93px] font-semibold text-center ">
     LEARN  DESIGN  CONCEPTS  VIA  PRACTICAL  APPLICATIONS  -  LEARN  VIA  PRACTICAL  APPLICATIONS  -  LEARN  DESIGN CONCEPTS
   </div>
 </div>
@@ -56,42 +58,42 @@ export default function Prodes() {
     
     </div>
     <div className="mt-12 sm:mt-[8.75rem]">
-     <div className='flex justify-center '><div className='bg-gradient-to-l from-[#A965FF] to-[#F5F5F5] sm:w-80 md:w-52 w-24 mr-1 md:mr-6 sm:mr-16 h-0.5 sm:mt-1 mt-3'></div>   <h1 className="font-bold font-heading  text-center text-[#F5F5F5] text-lg sm:text-[2.5rem] ">
-         P R O D E S
-        </h1><div className=' bg-gradient-to-r from-[#A965FF] to-[#F5F5F5] sm:w-80 w-24 sm:ml-16 ml-1 h-0.5 md:w-52 md:ml-6 sm:mt-1 mt-3'></div></div></div>
+     <div className='flex justify-center items-center gap-12 '><Leftline/>  <h1 className="font-bold font-heading w-[291.842px]  text-center text-[#F5F5F5] text-[28px] sm:text-[28px] leading-[35.7px] tracking-[10px] ">
+         PRODES
+        </h1><Rightline/></div></div>
         <img src="/images/Union.png" alt="Image 2" class="w-6 h-6 my-2 ml-auto mr-48"/>
-        <div class="flex flex-col items-center mb-24 sm:mt-24 mt-12">
-    <div class="sm:flex  sm:flex-row flex-col sm:gap-0 gap-10 justify-center">
+        <div class="flex   justify-center mb-24 sm:mt-24 mt-12">
+    <div class="sm:flex  sm:flex-row flex-col sm:gap-0 gap-10  justify-center">
     <img src="/images/Union.png" alt="Image 2" class="w-6 h-6 mb-0"/>
-        <div class="flex flex-col items-center sm:my-0 my-32  sm:mt-20 mx-20">
+        <div class="flex flex-col items-center sm:my-0 my-32  sm:mt-36 mx-12">
             <img src="/images/image 109.png" alt="Image 1" class="w-32 h-32 mb-2"/>
            
-            <p class="p-2 w-36 text-center h-32  rounded text-[#F5F5F5] mt-2">Weekly Live & Interactive sessions </p>
+            <p class="p-2 w-[193px] text-center tracking-[0.548px] leading-[25px] text-[14px] h-32  rounded text-[#F5F5F5] mt-2">Weekly Live & Interactive sessions </p>
         </div>
         
-        <div class="flex flex-col items-center sm:my-0 my-32  sm:mt-10 mx-20">
+        <div class="flex flex-col items-center sm:my-0 my-32  sm:mt-24 mx-12">
        
             <img src="/images/image 164.png" alt="Image 2" class="w-32 h-32 mb-2"/>
            
-            <p class="p-2 w-40 text-center h-32  rounded text-[#F5F5F5] mt-2">Building your portfolio from scratch</p>
+            <p class="p-2 w-[193px] text-center tracking-[0.548px] leading-[25px] text-[14px] h-32  rounded text-[#F5F5F5] mt-2">Building your portfolio from scratch</p>
         </div>
         
-        <div class="flex flex-col items-center sm:my-0 my-32  mb-2 mx-20">
+        <div class="flex flex-col items-center sm:mt-0 my-32  mb-2 mx-12">
             <img src="/images/image 105.png" alt="Image 3" class="w-32 h-32 mb-2"/>
            
-            <p class="p-2 w-40 text-center h-32 rounded text-[#F5F5F5] mt-2 ">Meeting & learning with like-minded friends </p>
+            <p class="p-2 w-[193px] text-center tracking-[0.548px] leading-[25px] text-[14px] h-32 rounded text-[#F5F5F5] mt-2 ">Meeting & learning with like-minded friends </p>
         </div>
         
-        <div class="flex flex-col items-center my-32 sm:my-0 sm:mt-10 sm:mb-3 mx-20">
+        <div class="flex flex-col items-center my-32 sm:my-0 sm:mt-24 sm:mb-3 mx-12">
             <img src="/images/image 163.png" alt="Image 4" class="w-32 h-32 mb-2"/>
            
-            <p class="p-2 w-40 text-center h-32  rounded text-[#F5F5F5] mt-2">Explore multiple real design stories</p>
+            <p class="p-2 w-[193px] text-center tracking-[0.548px] leading-[25px] text-[14px] h-32  rounded text-[#F5F5F5] mt-2">Explore multiple real design stories</p>
         </div>
         
-        <div class="flex flex-col items-center sm:my-0 my-32  sm:mt-20 mb-4 mx-20">
+        <div class="flex flex-col items-center sm:my-0 my-32  sm:mt-36 mb-4 mx-12">
             <img src="/images/image 116.png" alt="Image 5" class="w-32 h-32 mb-2"/>
            
-            <p class="p-2 w-40  text-center h-32 rounded text-[#F5F5F5] mt-2">Lifetime benefits to every <span className='text-[#A965FF]'>Prodes </span> member</p>
+            <p class="p-2 w-[193px] text-center tracking-[0.548px] leading-[25px] text-[14px] h-32 rounded text-[#F5F5F5] mt-2">Lifetime benefits to every <span className='text-[#A965FF]'>Prodes </span> member</p>
         </div>
     </div>
 </div>
@@ -120,21 +122,21 @@ export default function Prodes() {
         
         <div class="flex flex-col items-center sm:my-0 my-32   mx-20">
        
-            <img src="/images/image 162.png" alt="Image 2" class="w-6- h-60 mb-2"/>
+            <img src="/images/image 162.png" alt="Image 2" class="w-[256px] h-[186px] mb-2"/>
            
-            <p class="p-2 w-64 text-center h-32  rounded text-[#F5F5F5] sm:text-3xl semibold text-2xl  mt-2">Simply fill out the form <span className='text-[#A965FF]'>FREE</span> for Prodes 2.0</p>
+            <p class="  text-center h-32  rounded text-[#F5F5F5] sm:text-[24px] w-[301px]  text-2xl leading-[37.881px] tracking-[0.36px]   mt-2">Simply fill out the form <span className='text-[#A965FF]'>FREE</span> for Prodes 2.0</p>
         </div>
         
         <div class="flex flex-col items-center sm:my-0 my-32  mb-2 mx-20">
-            <img src="/images/image 111.png" alt="Image 3" class="w-6- h-60 mb-2"/>
+            <img src="/images/image 111.png" alt="Image 3" class="w-[256px] h-[186px] mb-2"/>
            
-            <p class="p-2 w-64 text-center h-32 rounded text-[#F5F5F5] sm:text-3xl semibold text-2xl  mt-2 ">Get shortlisted & exclusive access to surprises </p>
+            <p class="  text-center h-32 rounded text-[#F5F5F5] sm:text-[24px] w-[301px]  text-2xl tracking-[0.36px]  mt-2 ">Get shortlisted & exclusive access to surprises </p>
         </div>
         
         <div class="flex flex-col items-center my-32 sm:my-0  mx-20">
-            <img src="/images/Group 33603.png" alt="Image 4" class="w-6- h-60 mb-2"/>
+            <img src="/images/Group 33603.png" alt="Image 4" class="w-[256px] h-[186px] mb-2"/>
            
-            <p class="p-2 w-64 text-center h-32  rounded text-[#F5F5F5] sm:text-3xl semibold text-2xl  mt-2">Learn, enjoy & experiment your learnings</p>
+            <p class="  text-center h-32  rounded text-[#F5F5F5] sm:text-[24px] w-[301px]  text-2xl tracking-[0.36px]  mt-2">Learn, enjoy & experiment your learnings</p>
         </div>
         
         
@@ -143,9 +145,9 @@ export default function Prodes() {
 
 
 
-<div className='flex justify-center'><div className='bg-gradient-to-l from-[#A965FF] to-[#F5F5F5] sm:w-80 md:w-52 w-24 mr-1 md:mr-6 sm:mr-16 h-0.5 sm:mt-1 mt-3'></div>   <h1 className="font-bold font-heading  text-center text-[#F5F5F5] text-lg sm:text-[2.5rem] ">
-P R O - D E S <span className='text-[#A965FF]'>I G N E R</span>
-        </h1><div className=' bg-gradient-to-r from-[#A965FF] to-[#F5F5F5] sm:w-80 w-24 sm:ml-16 ml-1 h-0.5 md:w-52 md:ml-6 sm:mt-1 mt-3'></div></div>
+<div className='flex justify-center items-center'><Leftline/>  <h1 className="font-bold font-heading w-[464.782px] flex-shrink-0  text-center text-[#F5F5F5] text-lg sm:text-[24px] leading-[35.7px] tracking-[10px] ">
+PRO-DES<span className='text-[#A965FF]'>IGNER</span>
+        </h1><Rightline/></div>
 <div className='sm:flex w-[90%] mt-32 mb-24 block mx-auto justify-center sm:gap-[10%]'>
 <div className='mt-16 mb-32'>
 <ProdesCard image="/images/image 130.png" data="For anyone exploring the awesome domain of Product and UI/UX Design" />

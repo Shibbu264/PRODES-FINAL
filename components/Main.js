@@ -38,7 +38,7 @@ export default function Main() {
 h-[550px]
 flex-shrink: 0 ' src='/images/HowWeWorkIllustration.png'/></div>
 <div>
-<img className='flex w-80 mt-24 h-16'  src='/images/Group 7089.png'/>
+<img className='flex w-80 mt-24 h-16'  src='/images/Group 7089.svg'/>
 <h1 className='text-3xl mt-10 font-bold text-[#F5F5F5]'>The exclusive marketplace</h1>
 <h1 className='text-3xl font-bold text-[#F5F5F5]'>for everything Design</h1>
 <p className='w-[499.119px] h-[50.028px] flex-shrink-0 text-[#DFC5FF] font-montserrat text-[18px] font-normal leading-[138.5%] mt-6'>A common platform connecting amazing brands with the best & most trusted designers</p>
@@ -60,16 +60,17 @@ flex-shrink: 0 ' src='/images/HowWeWorkIllustration.png'/></div>
 
 <div className='flex justify-center items-center'><Leftline/><h1 className="flex-shrink-0 text-gray-200 text-center font-montserrat font-semibold text-[28px] leading-[35.7px] tracking-[10px] w-[375.006px] line-height-[35.7px]">WHY<span className='sm:mx-4 mx-2'>BRANDES</span>
         </h1><Rightline/></div>
-<div className='sm:flex w-[90%] block mx-auto justify-center sm:gap-[10%]'>
+<div className='sm:flex w-[90%] block mx-auto justify-center sm:gap-[2%]'>
+  <div className='circle absolute mt-0 mr-48 '></div>
 <div className='mt-16'>
 <ProdesCard image="/images/Saly-41.png" data="Brandes empowers you to 
 bring life into your work/ideas 
 magnificiently" />
-</div>
+</div> <div className='circle absolute mt-16 mr-[940px]'></div>
 <ProdesCard image="/images/Saly-39.png"  data="An entire FREE community 
 of self-learned and 
 experienced designers" />
-<div className='mt-16'>
+<div className='mt-16'> <div className='circle absolute mt-0 ml-32'></div>
 <ProdesCard image="/images/Saly-40.png" data="Regular sessions & 
 challenges: From scratch 
 to national level" />

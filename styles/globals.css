@@ -85,10 +85,11 @@ html {
 
 .track__item {
   height: 100%;
-  width: 85%;
+  width: 100%;
   background-color: #11001E;
-
- 
+display: block;
+margin-top: auto;
+ margin-bottom: auto;
 }
 @media (max-width: 768px) {
   .track__item {
@@ -107,7 +108,9 @@ html {
 /* Scale the left and right slides to a smaller size */
 .swiper-slide-prev .track__item,
 .swiper-slide-next .track__item {
-  transform: scale(0.7); /* Adjust the scale factor as needed */
+  transform: scale(0.7);
+  transform:scaleX(0.7) ;
+  transform:scaleY(0.7) ; /* Adjust the scale factor as needed */
 }
 
   /* Custom style for Swiper navigation buttons */
@@ -115,7 +118,7 @@ html {
   :root {
     --swiper-navigation-color: #A965FF;
     --swiper-pagination-color: #A965FF;
-
+   
     
 }
 .hover-underline {
@@ -147,4 +150,15 @@ html {
   background:url("/images/image 113.png");
 
   background-size: 100%;
+}
+.circle{
+  width: 361px;
+  height: 375px;
+  flex-shrink: 0;
+  border-radius: 375px;
+background: radial-gradient(50% 50% at 50% 50%, rgba(115, 5, 255, 0.20) 0%, rgba(17, 0, 30, 0.00) 100%);
+
+
+
+
 }

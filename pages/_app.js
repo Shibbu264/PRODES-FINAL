@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }) {
         <title>PRODES</title>
        
       
-        <link rel="icon" href="/images/brand.png" />
+        <link rel="icon" href="/images/Group 62.svg" />
       </Head>
       <Component {...pageProps} />
     </ThemeProvider>

@@ -5,16 +5,16 @@ import Image from 'next/image'
 export default function ProdesCard({data,image}) {
 
     return (
-        <div className="">
-            <div className="p-2  ">
+      
+           
 
-                <div className=' relative border-[#6614d1] border-x-2 border-y-2 shadow-[#f5f5f5] shadow-md '>
+                <div className='border pt-6   rounded-[2.31px] bg-opacity-5 bg-white relative border-[#A965FF] border-x-2 border-y-2 w-[319.584px] h-[494.211px] flex-shrink-0  '>
                     <img
                         src={image}
                        className='block mx-auto my-10'
                         alt="char images"
                     />
-                     <h2 className="text-xl text-center mx-4 text-[#F5F5F5] mb-6 pt-6 ">{data}</h2>
+                     <h2 className="text-gray-200 p-[8.615px] px-12 text-center  font-montserrat font-medium text-[15.506px] leading-[21.675px] tracking-[0.517px] ">{data}</h2>
                 </div>
 
               
@@ -23,7 +23,7 @@ export default function ProdesCard({data,image}) {
 
             
 
-            </div>
-        </div>
+          
+       
     )
 }

@@ -6,6 +6,8 @@ import React, { useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.min.css';
 import SwiperCore, { Navigation, Pagination } from 'swiper';
+import Leftline from './leftline1';
+import Rightline from './rightline';
 
 SwiperCore.use([Navigation, Pagination]);
 export default function Sweeper() {
@@ -15,9 +17,9 @@ export default function Sweeper() {
   return (
     <div className="mt-12 bg-[#11001E] sm:mt-[8.75rem]">
        <div className="mt-12 mb-20 sm:mt-[8.75rem]">
-       <div className='flex justify-center'><div className='bg-gradient-to-l from-[#A965FF] to-[#F5F5F5] sm:w-80 md:w-52 w-20  mr-1 md:mr-6 sm:mr-16 h-0.5 sm:mt-1 mt-3'></div>   <h1 className="font-bold font-heading  text-center text-[#F5F5F5] text-lg sm:text-[2.5rem] ">
-           W H Y <span className='sm:mx-4 mx-2'>T R U S T</span> <span className='sm:mx-4 mx-2'>U S</span>
-         </h1><div className=' bg-gradient-to-r from-[#A965FF] to-[#F5F5F5] sm:w-80 w-20  sm:ml-16 ml-1 h-0.5 md:w-52 md:ml-6 sm:mt-1 mt-3'></div></div>
+       <div className='flex justify-center items-center'><Leftline/>  <h1 className="  w-[464.586px] flex-shrink-0 text-gray-200 text-center font-montserrat font-semibold text-[28px] leading-[35.7px] tracking-[10px] ">
+           WHY <span className='sm:mx-1 mx-2'>TRUST</span> <span className='sm:mx-1 mx-2'>US</span>
+         </h1><Rightline/></div>
        </div>
 
       <div className="track-wrapper block mx-auto bg-[#11001E]">
@@ -46,54 +48,54 @@ export default function Sweeper() {
             <div className="border-[#A965FF] mx-6 border-x-2 border-y-2 border-solid px-8 py-16 track__item">
               
   
-      <p className='text-md text-center text-[#F5F5F5]'>“Prodes made me understand how I can think from the design perspective into my daily tasks Prodes made me understand how I can think from the design perspective into my daily tasks “</p>
-      <img src='/images/brand.png' className='block mx-auto w-24 my-6 h-24 rounded-full' alt='Brand Logo'/>
+      <p className='sm:text-[16.742px] text-base font-normal w-[463px] px-12 sm:text-white text-gray-200  font-montserrat  leading-[31.71px] tracking-[0.251px] '>“Prodes made me understand how I can think from the design perspective into my daily tasks Prodes made me understand how I can think from the design perspective into my daily tasks “</p>
+      <img src='/images/Group 62.svg' className='block mx-auto w-24 my-6 h-24 rounded-full' alt='Brand Logo'/>
 
-      <h1 className='font-semibold my-4 text-[#DFC5FF] text-center'>K Abhishek kumar</h1>
-      <h2 className='text-white'>Founder, Blackshorts</h2>
+      <h1 className='font-semibold mt-4 mb-2 text-[#DFC5FF] text-[16.742px] sm:leading-[31.71px] tracking-[0.251px] sm:tracking-[0.251px] text-center'>K Abhishek kumar</h1>
+      <h2 className='text-white text-[13.393px]'>Founder, Blackshorts</h2>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="border-[#DFC5FF] mx-6 border-x-2 border-y-2 px-8 py-16 track__item">
+            <div className="border-[#DFC5FF] my-auto block mx-6 border-x-2 border-y-2 px-8 py-16 track__item">
               
   
-      <p className='text-sm text-center text-[#F5F5F5]'>“Prodes made me understand how I can think from the design perspective into my daily tasks Prodes made me understand how I can think from the design perspective into my daily tasks “</p>
-      <img src='/images/brand.png' className='block mx-auto w-24 my-6 h-24 rounded-full' alt='Brand Logo'/>
-      <h1 className='font-semibold my-4 text-[#DFC5FF] text-center'>K Abhishek kumar</h1>
-      <h2 className='text-white'>Founder, Blackshorts</h2>
+     
+      <img src='/images/Group 62.svg' className='block mx-auto w-28 h-28 mb-16 rounded-full' alt='Brand Logo'/>
+      <h1 className='font-semibold mt-4 mb-2 text-[#DFC5FF] text-[24.742px] sm:leading-[31.71px] tracking-[0.251px] sm:tracking-[0.251px] text-center'>K Abhishek kumar</h1>
+      <h2 className='text-white text-[18.393px]'>Founder, Blackshorts</h2>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="border-[#DFC5FF] mx-6 border-x-2 border-y-2 px-8 py-16 track__item">
+            <div className="border-[#DFC5FF] my-auto block mx-6 border-x-2 border-y-2 px-8 py-16 track__item">
               
   
-      <p className='text-sm text-center text-[#F5F5F5]'>“Prodes made me understand how I can think from the design perspective into my daily tasks Prodes made me understand how I can think from the design perspective into my daily tasks “</p>
-       <img src='/images/brand.png' className='block mx-auto w-24 my-6 h-24 rounded-full' alt='Brand Logo'/>
-      <h1 className='font-semibold my-4 text-[#DFC5FF] text-center'>K Abhishek kumar</h1>
-      <h2 className='text-white'>Founder, Blackshorts</h2>
+     
+       <img src='/images/Group 62.svg' className='block mx-auto w-28 h-28 mb-16 rounded-full' alt='Brand Logo'/>
+      <h1 className='font-semibold mt-4 mb-2 text-[#DFC5FF] text-[24.742px] sm:leading-[31.71px] tracking-[0.251px] sm:tracking-[0.251px] text-center'>K Abhishek kumar</h1>
+      <h2 className='text-white text-[18.393]'>Founder, Blackshorts</h2>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="border-[#DFC5FF]   border-x-2 border-y-2 px-8 py-16 track__item">
+            <div className="border-[#DFC5FF] my-auto block   border-x-2 border-y-2 px-8 py-16 track__item">
               
   
-      <p className='text-sm  text-center text-[#F5F5F5]'>“Prodes made me understand how I can think from the design perspective into my daily tasks Prodes made me understand how I can think from the design perspective into my daily tasks “</p>
-       <img src='/images/brand.png' className='block mx-auto w-24 my-6 h-24 rounded-full' alt='Brand Logo'/>
-      <h1 className='font-semibold my-4 text-[#DFC5FF] text-center'>K Abhishek kumar</h1>
-      <h2 className='text-white'>Founder, Blackshorts</h2>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="border-[#DFC5FF] mx-6 border-x-2 border-y-2 px-8 py-16 track__item">
-              
-  
-      <p className='text-sm text-center text-[#F5F5F5]'>“Prodes made me understand how I can think from the design perspective into my daily tasks Prodes made me understand how I can think from the design perspective into my daily tasks “</p>
-       <img src='/images/brand.png' className='block mx-auto w-24 my-6 h-24 rounded-full' alt='Brand Logo'/>
-      <h1 className='font-semibold my-4 text-[#DFC5FF] text-center'>K Abhishek kumar</h1>
-      <h2 className='text-white'>Founder, Blackshorts</h2>
-            </div>
-          </SwiperSlide>
     
+       <img src='/images/Group 62.svg' className='block mx-auto w-28 h-28 mb-16 rounded-full' alt='Brand Logo'/>
+      <h1 className='font-semibold mt-4 mb-2 text-[#DFC5FF] text-[24.742px] sm:leading-[31.71px] tracking-[0.251px] sm:tracking-[0.251px] text-center'>K Abhishek kumar</h1>
+      <h2 className='text-white text-[18.393]'>Founder, Blackshorts</h2>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="border-[#DFC5FF] my-auto block mx-6 border-x-2 border-y-2 px-8 py-16 track__item">
+              
+  
+   
+       <img src='/images/Group 62.svg' className='block mx-auto w-28 h-28 mb-16 rounded-full' alt='Brand Logo'/>
+      <h1 className='font-semibold mt-4 mb-2 text-[#DFC5FF] text-[24.742px] sm:leading-[31.71px] tracking-[0.251px] sm:tracking-[0.251px] text-center'>K Abhishek kumar</h1>
+      <h2 className='text-white text-[18.393]'>Founder, Blackshorts</h2>
+            </div>
+          </SwiperSlide>
+  
         </Swiper>
      
       </div>

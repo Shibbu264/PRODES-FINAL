@@ -31,7 +31,7 @@ export default function NavBar({navbar }) {
       <div className="hidden sm:flex flex-row items-center justify-between mx-16">
         <div>
         <Image
-          src="/images/brand.png"
+          src="/images/Group 62.svg"
           width={95}
           height={35}
           alt="active-nav-logo"
@@ -105,7 +105,7 @@ export default function NavBar({navbar }) {
         </div>
         <div className={`${!navbar ? 'hidden' : ''}`}>
           <Image
-            src="/images/brand.png"
+            src="/images/Group 62.svg"
             width={90}
             height={45.45}
             alt="mobile-activenav-logo"

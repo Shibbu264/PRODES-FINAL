@@ -15,20 +15,20 @@ export default function Footer() {
           </div>
         </div>
        
-<div className='sm:flex hidden sm:mx-0 mx-auto justify-center   mt-16  gap-[10%]'>
-          <div className='block bg-[#1C0230] w-[40%] p-8'>
-              <div className="ml-4 font-custom  text-[1.5rem] font-bold">Before you go,</div>
-              <div className="ml-4 font-custom  text-[1.5rem] font-bold">check out these links</div>
+<div className='sm:flex hidden sm:mx-0 mx-auto justify-center   mt-16  gap-12'>
+          <div className='block bg-[#1C0230] w-[575px] h-[434px] p-8'>
+              <div className="ml-4 font-custom  text-[24px] font-semibold tracking-[0.548px]">Before you go,</div>
+              <div className="ml-4 font-custom  text-[24px] font-semibold tracking-[0.548px]">check out these links</div>
              <div>
-              <img src='/images/Group 37.png' className="w-20 h- mt-[3.75rem]" />
+              <img src='/images/Group 37.png' className="w-[37px] h-[49px] ml-6 mt-[3.75rem]" />
               <div className='flex mt-2 gap-4 sm:gap-[20%]'>
-                <div className="mt-[1.25rem] flex flex-col font-custom text-[2.00rem] text-[#A965FF] font-medium">
-                  <a href="" className="block text-[1.85rem]  hover:text-[#F5F5F5]">About Brandes</a>
+                <div className="mt-[1.25rem] flex flex-col font-custom text-[18px] text-[#A965FF] font-medium">
+                  <a href="" className="block text-[18px]  hover:text-[#F5F5F5]">About Brandes</a>
                   <a href="" className="block hover:text-[#F5F5F5]">Our Story</a>
                   <a href="" className="block hover:text-[#F5F5F5]">Support</a>
                   <a href="" className="block hover:text-[#F5F5F5]">Collaborations</a>
                 </div>
-                <div className="mt-[1.25rem] flex flex-col font-custom text-[2.00rem] text-[#A965FF] font-medium">
+                <div className="mt-[1.25rem] flex flex-col ml-20 font-custom text-[18px] tracking-[0.548px] text-[#A965FF] font-medium">
                   <a href="" className="mt-2 block w-72 hover:text-[#F5F5F5]">Explore the Bazaar</a>
                   <a href="" className="block w-72 hover:text-[#F5F5F5]">Explore Prodes</a>
                   <a href="" className="block w-72 hover:text-[#F5F5F5]">Hire from Squad</a>
@@ -36,12 +36,12 @@ export default function Footer() {
               </div>
 </div>
              
-         <div className='block w-[40%] p-8 bg-[#1C0230]'>
+         <div className='block w-[575px] h-[434px] p-8 bg-[#1C0230]'>
        <div>
             <div className='p-4 md:p-12'>
-              <div className="font-custom text-[1.5rem] font-bold">Before you go,</div>
-              <div className="font-custom text-[1.5rem] font-bold">check out these links</div>
-              <div className="mt-4 flex flex-col font-custom text-[1.25rem] text-[#A965FF] font-medium">
+              <div className="font-custom text-[24px] tracking-[0.548px] font-bold">Before you go,</div>
+              <div className="font-custom text-[24px] tracking-[0.548px] font-bold">check out these links</div>
+              <div className="mt-24 flex flex-col font-custom text-[18px] tracking-[0.548px] text-[#A965FF] font-medium">
                 <a href="" className="block hover:text-[#F5F5F5]">Become a Sponsor</a>
                 <a href="" className="block hover:text-[#F5F5F5]">Apply as a Mentor</a>
                 <a href="" className="block hover:text-[#F5F5F5]">Host a Workshop</a>

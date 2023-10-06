@@ -10,7 +10,7 @@ export default function Document() {
       
         <meta property="og:url" content="" />
         <meta property="og:type" content="website" />
-        <link rel="icon" href="/images/brand.png" />
+        <link rel="icon" href="/images/Group 62.svg" />
       </Head>
       <body>
         <Main />
