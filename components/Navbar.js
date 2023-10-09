@@ -24,7 +24,7 @@ export default function NavBar({navbar }) {
   return (
     <div
       className={` w-screen z-30 font-medium bg-[#11001E] text-white sm:py-3 
-         shadow-lg border-b border-[#8049C3]  `
+         shadow-lg border-b border-[#8049C3]  sm:overflow-y-hidden  `
        
         }
     >

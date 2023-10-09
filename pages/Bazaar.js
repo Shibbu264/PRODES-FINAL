@@ -7,6 +7,8 @@ import { getAuth ,onAuthStateChanged} from 'firebase/auth';
 import Letsdesign from '../components/letsdesign';
 import ProdesCard from '../components/prodescard';
 import Sweeper from '../components/ImageSlider';
+import Leftline from '../components/leftline1';
+import Rightline from '../components/rightline';
 
 
 export default function Prodes() {
@@ -21,7 +23,7 @@ const[value,setvalue]=useState(true)
      <NavBar navbar={true} />
 
      --Hero
-     <div className="bg-[#11001E] relative my-0 z-20 w-[100%] sm:overflow-x-hidden h-fit">
+     <div className="bg-[#11001E] relative my-0 z-20 w-[100%]   sm:overflow-y-hidden sm:overflow-x-hidden ">
       <div className="sm:text-5xl text-3xl text-center block mx-auto text-white">
         <h1 className="relative font-medium" >
        Welcome to the <span className="text-[#A965FF]"> Bazaar</span>
@@ -41,7 +43,7 @@ const[value,setvalue]=useState(true)
  
   <input type="checkbox" onClick={()=>{setvalue(!value)}} value="" class="sr-only peer" />
   
-  <div class="w-11 h-6 bg-[#11001E] rounded-full border-[#A965FF] border-2 peer dark:bg-gray-700 peer-focus:ring-4 peer-focus:ring-purple-300 dark:peer-focus:ring-purple-800 peer-checked:after:translate-x-full peer-checked:after:border-[#A965FF] after:content-[''] after:absolute after:top-0.5 after:left-[2px] after:bg-white after:border-[#A965FF] after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-purple-600"></div>
+  <div class="w-11 h-6  rounded-full border-[#A965FF] border-2 peer  peer-focus:ring-4 peer-focus:ring-purple-300 dark:peer-focus:ring-purple-800 peer-checked:after:translate-x-full peer-checked:after:border-[#A965FF] after:content-[''] after:absolute  after:left-[2px] after:bg-white after:border-[#A965FF] after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 bg-purple-600"></div>
   <span class={value?'ml-3 text-xl text-[#F5F5F5] font-medium  dark:text-gray-300':' ml-3 text-xl  text-[#A965FF] font-medium  dark:text-gray-300'}>Company</span>
 </label>
 </div>
@@ -56,48 +58,49 @@ const[value,setvalue]=useState(true)
 
     
     </div>
-    <div className="mt-12 sm:mt-[8.75rem]">
-     <div className='flex justify-center '><div className='bg-gradient-to-l from-[#A965FF] to-[#F5F5F5] sm:w-80 md:w-52 w-20 mr-1 md:mr-6 sm:mr-16 h-0.5 sm:mt-1 mt-3'></div>   <h1 className="font-bold font-heading  text-center text-[#F5F5F5] text-lg sm:text-[2.5rem] ">
-     W H A T <span className='mx-1'></span> I S <span className='mx-1'></span> B A Z A A R
-        </h1><div className=' bg-gradient-to-r from-[#A965FF] to-[#F5F5F5] sm:w-80 w-20 sm:ml-16 ml-1 h-0.5 md:w-52 md:ml-6 sm:mt-1 mt-3'></div></div></div>
-        <img src="/images/Union.png" alt="Image 2" class="w-6 h-6 my-2 ml-auto mr-48"/>
-        <div class="flex flex-col items-center mb-24 sm:mt-24 mt-12">
-    <div class="sm:flex  sm:flex-row flex-col sm:gap-0 gap-10 justify-center">
+    <div className="mt-12  sm:overflow-y-hidden sm:mt-[8.75rem]">
+     <div className='flex justify-center items-center '> <Leftline/>   <h1 className="mx-12 font-bold font-heading leading-[35.7px] tracking-[10px]  text-center text-[#F5F5F5] text-[28px] sm:text-[2.5rem] ">
+     WHAT<span className='mx-1'></span>IS<span className='mx-1'></span>BAZAAR
+        </h1><Rightline/></div></div>
+        <img src="/images/Union.png" alt="Image 2" class="w-6 h-6 absolute right-0  mt-36 ml-auto mr-48"/>
+        <div class="flex flex-col items-center justify-center mb-18 sm:mt-24  mt-12">
+    <div class="sm:flex  sm:flex-row flex-col sm:gap-0 gap-10  justify-center">
     <img src="/images/Union.png" alt="Image 2" class="w-6 h-6 mb-0"/>
-        <div class="flex flex-col items-center sm:my-0 my-32  sm:mt-20 mx-20">
-            <img src="/images/image 109.png" alt="Image 1" class="w-32 h-32 mb-2"/>
+        <div class="flex flex-col items-center  my-32   sm:mt-40 mx-12">
+            <img src="/images/image 109.png" alt="Image 1" class="w-[148px] h-[148px] mb-2"/>
            
-            <p class="p-2 w-36 text-center h-32  rounded text-[#F5F5F5] mt-2">How you doin’ cheerful minds? </p>
+            <p class="p-2 w-[181px] text-[14px] font-medium text-center h-32 rounded text-[#F5F5F5] mt-2">How you doin’ cheerful minds? </p>
         </div>
         
-        <div class="flex flex-col items-center sm:my-0 my-32  sm:mt-10 mx-20">
+        <div class="flex flex-col items-center sm:my-0 my-32  sm:mt-24 mx-12">
        
-            <img src="/images/image 126.png" alt="Image 2" class="w-32 h-32 mb-2"/>
+            <img src="/images/image 126.png" alt="Image 2" class="w-[188px] h-[150px] mb-2"/>
            
-            <p class="p-2 w-40 text-center h-32  rounded text-[#F5F5F5] mt-2">Confused on how to implement your Design learnings?</p>
+            <p class="p-2 w-[181px] text-[14px] font-medium text-center h-32 rounded text-[#F5F5F5] mt-2">Confused on how to implement your Design learnings?</p>
         </div>
         
-        <div class="flex flex-col items-center sm:my-0 my-32  mb-2 mx-20">
-            <img src="/images/image 127.png" alt="Image 3" class="w-32 h-32 mb-2"/>
+        <div class="flex flex-col items-center sm:my-0 my-32  mb-6 mx-12">
+            <img src="/images/image 127.png" alt="Image 3" class="w-[170px] h-[170px] mb-2"/>
            
-            <p class="p-2 w-40 text-center h-32 rounded text-[#F5F5F5] mt-2 ">Brandes <span className='text-[#A965FF]'>Bazaar </span>  brings you the platform to explore yourself</p>
+            <p class="p-2 w-[181px] text-[14px] font-medium text-center h-32 rounded text-[#F5F5F5] mt-2 ">Brandes <span className='text-[#A965FF]'>Bazaar </span>  brings you the platform to explore yourself</p>
         </div>
         
-        <div class="flex flex-col items-center my-32 sm:my-0 sm:mt-10 sm:mb-3 mx-20">
-            <img src="/images/image 128.png" alt="Image 4" class="w-32 h-32 mb-2"/>
+        <div class="flex flex-col items-center my-32 sm:my-0 sm:mt-24 sm:mb-3 mx-12">
+            <img src="/images/image 128.png" alt="Image 4" class="w-[162px] h-[162px] mb-2"/>
            
-            <p class="p-2 w-40 text-center h-32  rounded text-[#F5F5F5] mt-2">Join into paid projects, collaborative design ventures & much more</p>
+            <p class="p-2 w-[181px] text-[14px] font-medium text-center h-32 rounded text-[#F5F5F5] mt-2 ">Join into paid projects, collaborative design ventures & much more</p>
         </div>
         
-        <div class="flex flex-col items-center sm:my-0 my-32  sm:mt-20 mb-4 mx-20">
+        <div class="flex flex-col items-center sm:my-0 my-32  sm:mt-40 mb-4 mx-12">
             <img src="/images/image 111.png" alt="Image 5" class="w-32 h-32 mb-2"/>
            
-            <p class="p-2 w-40  text-center h-32 rounded text-[#F5F5F5] mt-2">Win internship, job and other freelance opportunities</p>
+            <p class="p-2 w-[181px] text-[14px] font-medium text-center h-32 rounded text-[#F5F5F5] mt-2 ">Win internship, job and other freelance opportunities</p>
         </div>
     </div>
 </div>
 
 <div className="sm:text-5xl text-3xl text-center block mx-auto text-white">
+<img src="/images/Union.png" alt="Image 2" class="w-6 h-6 absolute right-0  mt-64 ml-auto mr-72"/>
         <h1 className="relative mt-20 font-medium" >
         Enter into the space of
         </h1>
@@ -107,7 +110,7 @@ const[value,setvalue]=useState(true)
 
         
       </div>
-      <h1 className=' w-fit my-20 text-xl text-center  text-[#F5F5F5] border-[#F5F5F5] sm:block mx-auto py-4 sm:px-6 px-3 rounded-3xl border-x-2 border-y-2'> E N T E R<span className='mx-3'>B A Z A A R</span></h1>
+      <h1 className=' w-[333px]  my-20 text-xl text-center  text-[#F5F5F5] border-[#F5F5F5] sm:block mx-auto py-4 sm:px-6 px-3 rounded-3xl border-x-2 border-y-2'> E N T E R<span className='mx-3'>B A Z A A R</span></h1>
 <div className='my-24 titu h-fit sm:flex sm:bg-no-repeat py-6 sm:py-0  block mx-auto justify-between'>
 <h1 className='sm:text-5xl block my-auto mx-auto font-semibold w-[50%] text-2xl text-[#F5F5F5]'>What makes the Bazaar exclusive, unique and interactive? </h1>
 <img src='/images/image 114.png' className='block m-auto'/>
@@ -125,19 +128,20 @@ const[value,setvalue]=useState(true)
        
             <img src="/images/image 118.png" alt="Image 2" class="w-6- h-60 mb-2"/>
            
-            <p class="p-2 w-64 text-center h-32  rounded text-[#F5F5F5] sm:text-3xl semibold text-2xl  mt-2">Simply fill out the form <span className='text-[#A965FF]'>FREE</span> for Prodes 2.0</p>
+            <p class="p-2 w-[362px] text-center h-32  rounded text-[#F5F5F5] sm:text-[24px] font-medium  semibold text-2xl  mt-2"><span className='text-[#A965FF]'>Industry-level projects </span> & experience associated with amazing brands</p>
         </div>
         
         <div class="flex flex-col items-center sm:my-0 my-32  mb-2 mx-20">
             <img src="/images/image 116.png" alt="Image 3" class="w-6- h-60 mb-2"/>
            
-            <p class="p-2 w-64 text-center h-32 rounded text-[#F5F5F5] sm:text-3xl semibold text-2xl  mt-2 ">Get shortlisted & exclusive access to surprises </p>
+            <p class="p-2 w-[362px] text-center h-32 rounded text-[#F5F5F5] sm:text-[24px] font-medium semibold text-2xl  mt-2 "><span className='text-[#A965FF]'>Collaborate</span> with experts over well-paid joint design ventures  </p>
         </div>
         
         <div class="flex flex-col items-center my-32 sm:my-0  mx-20">
             <img src="/images/Group 33603.png" alt="Image 4" class="w-6- h-60 mb-2"/>
            
-            <p class="p-2 w-64 text-center h-32  rounded text-[#F5F5F5] sm:text-3xl semibold text-2xl  mt-2">Learn, enjoy & experiment your learnings</p>
+            <p class="p-2 w-[326px] text-center h-32  rounded text-[#F5F5F5] sm:text-[24px] font-medium  semibold text-2xl  mt-2">Get the right internship 
+and job <span className='text-[#A965FF]'>opportunities</span>; the right way</p>
         </div>
         
         
@@ -146,9 +150,9 @@ const[value,setvalue]=useState(true)
 </>: <><Sweeper/><div className='mb-20'></div></>}
 
 
-<div className='flex justify-center'><div className='bg-gradient-to-l from-[#A965FF] to-[#F5F5F5] sm:w-80 md:w-52 w-24 mr-1 md:mr-6 sm:mr-16 h-0.5 sm:mt-1 mt-3'></div> 
- {value? <h1 className="font-bold font-heading  text-center text-[#F5F5F5] text-lg sm:text-[2.5rem] ">O P P U R T U N I T I E S </h1>:<h1 className="font-bold font-heading  text-center text-[#F5F5F5] text-lg sm:text-[2.5rem] ">O U R <span className='mx-2'></span> P O R T F O L I O </h1>}     
-        <div className=' bg-gradient-to-r from-[#A965FF] to-[#F5F5F5] sm:w-80 w-24 sm:ml-16 ml-1 h-0.5 md:w-52 md:ml-6 sm:mt-1 mt-3'></div></div>
+<div className='flex justify-center items-center mt-48'><Leftline/>
+ {value? <h1 className="font-bold font-heading  text-center text-[#F5F5F5] mx-16 text-lg sm:text-[28px] tracking-[10px]">OPPURTUNITIES</h1>:<h1 className="font-bold font-heading  text-center text-[#F5F5F5] mx-16 text-lg sm:text-[28px] tracking-[10px] flex-shrink-0 ">OUR<span className='mx-2'></span>PORTFOLIO</h1>}     
+       <Rightline/></div>
 
 
 

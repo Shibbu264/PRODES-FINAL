@@ -18,11 +18,11 @@ export default function Prodes() {
   const [navbar, setNavbar] = useState(false);
 
   return (
-    <div className="bg-[#11001E]">
+    <div className="bg-[#11001E] my-0">
      <NavBar navbar={true} />
 
      --Hero
-     <div className="bg-[#11001E] relative my-0 z-20 w-[100%] sm:overflow-x-hidden h-fit">
+     <div className="bg-[#11001E] relative my-0 z-20 w-[100%] ">
       <div className="sm:text-5xl text-3xl text-center block mx-auto text-white">
         <h1 className="relative font-medium" >
         Diving into the world of, for
