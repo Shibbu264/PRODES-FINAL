@@ -1,7 +1,7 @@
 
 
 
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.min.css';
@@ -12,8 +12,19 @@ import Rightline from './rightline';
 SwiperCore.use([Navigation, Pagination]);
 export default function Sweeper() {
   const [swiper, setSwiper] = useState(null);
+  const swiperRef = useRef(null);
+  const goNext = () => {
+    if (swiperRef.current && swiperRef.current.swiper) {
+      swiperRef.current.swiper.slideNext();
+    }
+  };
 
- 
+  const goPrev = () => {
+    console.log('Going to previous slide');
+    if (swiperRef.current && swiperRef.current.swiper) {
+      swiperRef.current.swiper.slidePrev();
+    }
+  };
   return (
     <div className="mt-12 bg-[#11001E] sm:mt-[8.75rem]">
        <div className="mt-12 mb-20 sm:mt-[8.75rem]">
@@ -23,10 +34,10 @@ export default function Sweeper() {
        </div>
 
       <div className="track-wrapper block mx-auto bg-[#11001E]">
-        <Swiper
+        <Swiper ref={swiperRef}
           spaceBetween={32} // Adjust the space between slides
           slidesPerView={3} // Number of slides to show at once
-          navigation={true} // Show navigation buttons (forward and backward)
+           // Show navigation buttons (forward and backward)
           pagination={{ clickable: true }} 
           centeredSlides={true}
           loop={true}
@@ -95,10 +106,15 @@ export default function Sweeper() {
       <h2 className='text-white text-[18.393]'>Founder, Blackshorts</h2>
             </div>
           </SwiperSlide>
-  
+        
         </Swiper>
      
+
       </div>
+      <div className='flex gap-16 my-12  justify-center items-center'>
+      <img src='/images/arrow-right 1.svg' onClick={goPrev} className=' cursor-pointer w-16 rotate-[180deg] hover:scale-[1.1]   h-16   rounded-full font-bold   '/> 
+      <img src='/images/arrow-right 1.svg' onClick={goNext} className=' cursor-pointer w-16 h-16 hover:scale-[1.1]    rounded-full font-bold   '/> 
+     </div>
     </div>
   );
 }
