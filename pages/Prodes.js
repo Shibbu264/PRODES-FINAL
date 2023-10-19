@@ -22,7 +22,7 @@ export default function Prodes() {
      <NavBar navbar={true} />
 
      --Hero
-     <div className="bg-[#11001E] relative my-0 z-20 w-[100%] ">
+     <div className="bg-[#11001E] relative mt-36 z-20 w-[100%] ">
       <div className="sm:text-5xl text-3xl text-center block mx-auto text-white">
         <h1 className="relative font-medium" >
         Diving into the world of, for
@@ -31,21 +31,22 @@ export default function Prodes() {
          and by the <span className="text-[#A965FF]"> Designers</span>
         </h1>
       </div>
-      <div class="flex sm:mt-28 mt-24 sm:mb-28 mb-16 h-64 flex-col justify-center  items-center">
+      <div class="flex sm:mt-36 mt-24 sm:mb-28 mb-16 h-64 flex-col justify-center  items-center">
   
    
-    <div class="bg-[#D2AFFF] absolute w-[1575px] h-[31px]   sm:inline hidden z-20  rounded-lg text-[#11001E] transform rotate-[5.173deg] flex-shrink-0 text-[25.841px] leading-[32.301px] tracking-[1.496px] custom-text font-bold text-center ">
+    <div class="bg-[#D2AFFF] absolute w-[1575px] h-[31px]   sm:inline hidden z-20  rounded-lg text-[#11001E] transform rotate-[5.173deg] flex-shrink-0 text-[25.841px] leading-[32.301px] tracking-[1.496px] custom-text font-semi-bold text-center ">
     PRODES 2.0 * OCTOBER 2023 * FREE COHORT-BASED COMMUNITY FREE COHORT-BASED COMMUNITY * PRODES 2.0 
     </div>
-   <img src='/images/Group 33592.png' className='z-30  sm:block hidden absolute w-[419.607px] h-[270.511px] left-0 right-0 mx-auto'/>
+   <img src='/images/Group 33592.png' className='z-30  sm:block hidden absolute w-[543px] h-[408px] left-0 right-0 mx-auto'/>
  
-  <div class="bg-[#5C2F93]  w-[1575px] h-[31px]  sm:inline hidden rounded-lg sm:mt-0 mt-28  flex-shrink-0 text-[#FFFFFF] transform custom-text rotate-[-5.55deg] text-[24.93px] leading-[31.162px] tracking-[1.496px] font-semibold text-center ">
+  <div class="bg-[#5C2F93]   w-[1575px] h-12 sm:flex items-center hidden rounded-lg sm:mt-0 mt-28  flex-shrink-0 text-[#FFFFFF] transform custom-text rotate-[-5.55deg] text-[24.93px] leading-[31.162px] tracking-[1.496px]  text-center ">
     LEARN  DESIGN  CONCEPTS  VIA  PRACTICAL  APPLICATIONS  -  LEARN  VIA  PRACTICAL  APPLICATIONS  -  LEARN  DESIGN CONCEPTS
   </div>
 
+  
 
 --for Phone
-  <div class="bg-[#D2AFFF] p-2 mx-3 sm:hidden my-16  rounded-lg text-[#11001E] z-10  text-xl font-semibold text-center ">
+  <div class="bg-[#D2AFFF] p-2 mx-3 sm:hidden my-16   rounded-lg text-[#11001E] z-10  text-xl font-semibold text-center ">
       PRODES 2.0 * OCTOBER 2023 * FREE COHORT-BASED COMMUNITY  * PRODES 2.0
     </div>
    <img src='/images/Group 33592.png' className='z-30 block sm:hidden absolute mt-12 left-0 right-0 mx-auto'/>
@@ -57,6 +58,7 @@ export default function Prodes() {
 
     
     </div>
+    <img  src='/images/triangle.png'className= 'mt-36 w-[15px] h-[15px]   text-white block mx-auto  ' ></img>
     <div className="mt-12 sm:mt-[8.75rem]">
      <div className='flex justify-center items-center gap-12 '><Leftline/>  <h1 className="font-bold font-heading w-[291.842px]  text-center text-[#F5F5F5] text-[28px] sm:text-[28px] leading-[35.7px] tracking-[10px] ">
          PRODES

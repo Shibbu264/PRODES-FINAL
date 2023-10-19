@@ -13,7 +13,7 @@ return (
 </div>
 
 
-<div className='sm:flex hidden justify-center  w-[85%]  mt-28 mx-auto'>
+<div className='sm:flex hidden justify-center   w-[85%]  mt-28 mx-auto '>
   <div className='block w-64 mb-20 mt-0 mx-auto '>
   <img className='inline mx-auto w-[267px] h-[267px]  md:w-auto lg:w-auto' src='/images/gif3.gif'/><h1 className='text-gray-200 text-center font-montserrat text-[18px] font-medium leading-[28px] tracking-[0.548px] w-[294px] '>Anyone motivated to dive into the world of learning and exploring design</h1></div>
 <img className='block mx-auto  mt-36 sm:w-32 h-2 ' src='/images/Vector 20.png'/>
@@ -22,7 +22,7 @@ return (
 <img className=' mx-auto block  w-[70px] h-[93px] mb-6' src='/images/Group 50.png'/>
 <h1 className="text-white text-center  text-[33.472px] font-extrabold  custom-text leading-[33.472px] tracking-[4.017px]"> BRANDES</h1>
 </div>
-<div className='sm:inline block'>
+<div className='sm:inline  block'>
 <img className='block mx-auto w-4 h-24  sm:w-auto my-8 md:w-auto lg:w-auto' src='/images/Vector 22.png'/>
 <img className='block mx-auto mt-12 mb-8 w-full sm:w-auto md:w-auto lg:w-auto' src='/images/Frame 33605.png'/>
 <h1 className='text-gray-200 text-center font-montserrat text-[18px] font-medium leading-[28px] tracking-[0.548px] w-[284px]'>Product & UI/UX Design learning and competing community space </h1>

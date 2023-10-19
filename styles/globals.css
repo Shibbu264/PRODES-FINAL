@@ -12,7 +12,8 @@
 
 /* Example usage of the Lemon Days font */
 .custom-text {
-  font-family: 'Lemon Days', sans-serif;
+  font-family: 'Lemon Days';
+
 }
 
 html,
@@ -84,8 +85,7 @@ html {
 }
 
 .track__item {
-  height: 100%;
-  width: 100%;
+  
   background-color: #11001E;
 display: block;
 margin-top: auto;
@@ -110,7 +110,8 @@ margin-top: auto;
 .swiper-slide-next .track__item {
   transform: scale(0.7);
   transform:scaleX(0.7) ;
-  transform:scaleY(0.7) ; /* Adjust the scale factor as needed */
+  transform:scaleY(0.7) ;
+  /* Adjust the scale factor as needed */
 }
 
   /* Custom style for Swiper navigation buttons */
@@ -136,7 +137,7 @@ margin-top: auto;
   width: 100%;
   margin-top: 5px;
   
-  height: 2px; /* Adjust the height of the underline as needed */
+  height: 1px; /* Adjust the height of the underline as needed */
   background-color: white; /* Set the underline color to white */
   transform: scaleX(0); /* Initially, the underline has zero width */
   transform-origin: center;

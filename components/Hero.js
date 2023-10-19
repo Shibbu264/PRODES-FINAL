@@ -8,7 +8,7 @@ export default function Hero() {
 
   return (
     <div className="bg-[#11001E] relative my-0 z-20 w-[100%]  sm:overflow-y-hidden sm:overflow-x-hidden h-fit">
-      <div className="sm:text-5xl text-3xl text-center block mx-auto text-white">
+      <div className="sm:text-5xl mt-44 font-semibold text-3xl text-center block mx-auto text-white">
         <h1 className="relative mt-20" style={{ opacity: 0, animation: 'fadeIn 1s forwards' }}>
           Learn, Create and Experiment
         </h1>

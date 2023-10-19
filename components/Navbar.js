@@ -23,8 +23,8 @@ export default function NavBar({navbar }) {
   }
   return (
     <div
-      className={` w-screen z-30 font-medium bg-[#11001E] text-white sm:py-3 
-         shadow-lg border-b border-[#8049C3]  sm:overflow-y-hidden  `
+      className={` w-screen z-30 h-[78px] font-medium  backdrop-blur-md text-white pt-6 
+         shadow-lg border-b border-[#8049C3] fixed  sm:overflow-y-hidden  `
        
         }
     >
@@ -32,34 +32,34 @@ export default function NavBar({navbar }) {
         <div>
         <Image
           src="/images/Group 62.svg"
-          width={95}
+          width={119}
           height={35}
           alt="active-nav-logo"
         />
         </div>
-        <div className="justify-end hidden items-center sm:flex space-x-11 2xl:space-x-18 font-medium">
+        <div className="justify-end mr-4 hidden items-center sm:flex space-x-11 gap-6 font-medium">
           <Link href="/home">
-            <button className=" 2xl:text-xl hover-underline text-[#A965FF] duration-100">
+            <button className="  hover-underline text-lg text-[#A965FF] duration-100">
               Home
             </button>
           </Link>
           <Link href="/Prodes">
-            <button className="2xl:text-xl hover-underline text-lg hduration-100">
+            <button className=" hover-underline text-lg hduration-100">
               Prodes
             </button>
           </Link>
           <Link href="/Bazaar">
-            <button className="2xl:text-xl hover-underline  text-lg  duration-100">
+            <button className=" hover-underline  text-lg  duration-100">
               Enter Bazaar
             </button>
           </Link>
           <Link href="/">
-            <button className="2xl:text-xl hover-underline  text-lg  duration-100">
+            <button className=" hover-underline  text-lg  duration-100">
              The Squad
             </button>
           </Link>
           <Link href="/">
-            <button className="2xl:text-xl hover-underline  text-lg  duration-100">
+            <button className=" hover-underline  text-lg  duration-100">
               Contact
             </button>
           </Link>
@@ -67,7 +67,7 @@ export default function NavBar({navbar }) {
 
           <Link href="/loginpage">
          <button onClick={handleChange}
-            className={`px-12 2xl:px-12 h-10 rounded-md text-[1.125rem] text-[#F5F5F5] font-semibold mx-4   border-[#8049C3] border-x border-y   hover:bg-[#8049C3] hover:duration-200    `}
+            className={`px-12 2xl:px-12 h-10 rounded-md text-[1.125rem] text-[#F5F5F5] font-semibold mx-4   border-[#8049C3] border-x border-y hover:bg-transparent   bg-[#8049C3] hover:duration-200    `}
           >
             Login
           </button></Link>
