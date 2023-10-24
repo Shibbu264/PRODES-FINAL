@@ -22,13 +22,13 @@ export default function Footer() {
              <div>
               <img src='/images/Group 37.png' className="w-[37px] h-[49px] ml-6  mt-[8.75rem]" />
               <div className='flex  gap-4 ml-4 '>
-                <div className="mt-[1.25rem] flex flex-col w-[145px] text-lg text-[#A965FF] font-medium">
-                  <a href="" className="block   leading-7 tracking-wide  hover:text-[#F5F5F5]">About Brandes</a>
-                  <a href="" className="block hover:text-[#F5F5F5]  leading-7 tracking-wide">Our Story</a>
-                  <a href="" className="block hover:text-[#F5F5F5]  leading-7 tracking-wide">Support</a>
-                  <a href="" className="block hover:text-[#F5F5F5]  leading-7 tracking-wide">Collaborations</a>
+                <div className="mt-[1.25rem] flex flex-col w-[152px] text-[18px] text-[#A965FF] font-medium">
+                  <a href="" className="block my-[2px]  leading-7 tracking-tight  hover:text-[#F5F5F5]">About Brandes</a>
+                  <a href="" className="block my-[2px] hover:text-[#F5F5F5]  leading-7 tracking-wide">Our Story</a>
+                  <a href="" className="block my-[2px] hover:text-[#F5F5F5]  leading-7 tracking-wide">Support</a>
+                  <a href="" className="block my-[2px] hover:text-[#F5F5F5]  leading-7 tracking-wide">Collaborations</a>
                 </div>
-                <div className="mt-[1.25rem] flex flex-col ml-20 font-custom text-[18px] tracking-[0.548px] text-[#A965FF] font-medium">
+                <div className="mt-[1.25rem] flex flex-col ml-32 font-custom text-[18px] tracking-[0.548px] text-[#A965FF] font-medium">
                   <a href="" className="mt-2 block w-72 hover:text-[#F5F5F5]">Explore the Bazaar</a>
                   <a href="" className="block w-72 hover:text-[#F5F5F5]">Explore Prodes</a>
                   <a href="" className="block w-72 hover:text-[#F5F5F5]">Hire from Squad</a>

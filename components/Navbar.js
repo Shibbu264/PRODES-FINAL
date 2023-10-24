@@ -39,27 +39,27 @@ export default function NavBar({navbar }) {
         </div>
         <div className="justify-end mr-4 hidden items-center sm:flex space-x-11 gap-6 font-medium">
           <Link href="/home">
-            <button className="  hover-underline text-lg text-[#A965FF] duration-100">
+            <button className="  hover-underline text-md text-[#A965FF] duration-100">
               Home
             </button>
           </Link>
           <Link href="/Prodes">
-            <button className=" hover-underline text-lg hduration-100">
+            <button className=" hover-underline text-md hduration-100">
               Prodes
             </button>
           </Link>
           <Link href="/Bazaar">
-            <button className=" hover-underline  text-lg  duration-100">
+            <button className=" hover-underline  text-md  duration-100">
               Enter Bazaar
             </button>
           </Link>
           <Link href="/">
-            <button className=" hover-underline  text-lg  duration-100">
+            <button className=" hover-underline  text-md  duration-100">
              The Squad
             </button>
           </Link>
           <Link href="/">
-            <button className=" hover-underline  text-lg  duration-100">
+            <button className=" hover-underline  text-md  duration-100">
               Contact
             </button>
           </Link>

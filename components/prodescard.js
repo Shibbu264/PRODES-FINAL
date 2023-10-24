@@ -14,7 +14,7 @@ export default function ProdesCard({data,image}) {
                        className='block mx-auto my-10'
                         alt="char images"
                     />
-                     <h2 className="text-gray-200 p-[8.615px] px-12 text-center  font-montserrat font-medium text-[15.506px] leading-[21.675px] tracking-[0.517px] ">{data}</h2>
+                     <h2 className="text-gray-200 p-[8.615px] px-12 text-center  font-montserrat font-medium text-[17.506px] leading-[21.675px] tracking-[0.517px] ">{data}</h2>
                 </div>
 
               
